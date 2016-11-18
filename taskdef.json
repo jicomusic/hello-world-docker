@@ -1,9 +1,9 @@
 {
-    "family": "hello-world",
+    "family": "hello-world-docker",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "name": "hello-world-docker",
             "cpu": 10,
             "memory": 256,
             "essential": true,
